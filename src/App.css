@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: black;
 }
 
 .App-logo {
@@ -35,4 +36,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#add-food {
+  border: 3px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 25px;
+  margin: auto;
+}
+
+#inputs {
+  display: flex;
+  align-items: center;
+}
+#inputs input,
+h1 {
+  margin: 15px;
+}
+
+.foods {
+  width: 70%;
+}
+
+main {
+  display: flex;
+}
+
+#right-sec {
+  width: 30%;
+  margin: 0 auto;
 }
